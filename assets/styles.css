@@ -606,3 +606,8 @@ body.is-mobile .error-grid { grid-template-columns: 1fr; gap: 24px; }
 body.is-mobile .stats-strip { grid-template-columns: 1fr 1fr; }
 body.is-mobile .stat-cell { padding: 20px 12px !important; }
 body.is-mobile .container, body.is-mobile .container-wide, body.is-mobile .container-narrow { padding-left: 20px; padding-right: 20px; }
+
+
+/* @v6.12-kling-video */
+.bb-media-video{position:relative;overflow:hidden;}
+.bb-media-video-el{border-radius:inherit;}
