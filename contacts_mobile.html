@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"/><meta name="viewport" content="width=375, initial-scale=1"/><title>Контакты — BelBes Studio</title><link rel="stylesheet" href="assets/styles.css"/></head>
+<body class="is-mobile" data-screen-label="contacts_mobile">
+<header class="nav"><div class="nav-inner"><a href="home_mobile.html" class="brand"><span class="brand-mark"></span><span>BelBes<em>.</em>Studio</span></a><a href="#form" class="btn btn-ink nav-cta">К форме <span class="arrow">↓</span></a></div></header>
+<main>
+<section class="hero"><div class="container-wide">
+  <div class="hero-eyebrow-row"><span class="eyebrow">Контакты</span></div>
+  <h1 class="hero-h1">Выберите<br/>канал.<br/>Каждый со<br/><em class="h-italic">своим SLA</em>.</h1>
+  <p class="hero-lede">Самый быстрый — Telegram. Структурированный бриф — форма. Длинный текст — email. Никаких «оставьте заявку и мы свяжемся».</p>
+  <div class="hero-cta-row"><a href="https://t.me/door2key" class="btn btn-primary">TG @door2key <span class="arrow">→</span></a></div>
+</div></section>
+
+<section class="section section-lined"><div class="container-wide">
+  <div class="section-head"><span class="eyebrow-strong">02 · Прямой контакт</span><h2 class="section-h">Четыре канала.</h2></div>
+  <div class="direct-grid">
+    <a href="https://t.me/door2key" class="direct-cell unlink"><span class="direct-num">01</span><span class="direct-label">Telegram</span><span class="direct-handle">@door2key</span><span class="direct-meta">Быстрый ответ. Дилог по брифу.</span><span class="direct-sla">SLA ≤ 2 часа</span></a>
+    <a href="mailto:hello@belbes.ru" class="direct-cell unlink"><span class="direct-num">02</span><span class="direct-label">Email</span><span class="direct-handle">hello@belbes.ru</span><span class="direct-meta">Длинные ТЗ, договоры, счета.</span><span class="direct-sla">SLA ≤ 12 часов</span></a>
+    <a href="#form" class="direct-cell unlink"><span class="direct-num">03</span><span class="direct-label">Форма брифа</span><span class="direct-handle">↓ ниже</span><span class="direct-meta">6 полей. Запустим Research до созвона.</span><span class="direct-sla">SLA ≤ 4 часа</span></a>
+    <a href="https://t.me/door2key" class="direct-cell unlink"><span class="direct-num">04</span><span class="direct-label">Звонок</span><span class="direct-handle">по записи в TG</span><span class="direct-meta">20 минут. Без слайдов.</span><span class="direct-sla">по записи</span></a>
+  </div>
+</div></section>
+
+<section class="section bg-2" id="form"><div class="container-wide">
+  <div class="section-head"><span class="eyebrow-strong">03 · Бриф</span><h2 class="section-h">Шесть<br/>полей.</h2></div>
+  <form class="form" onsubmit="event.preventDefault(); this.querySelector('.form-result').hidden=false; this.querySelector('button[type=submit]').textContent='Отправлено →';">
+    <div class="field"><label for="name">Имя и компания</label><input id="name" name="name" type="text" placeholder="Анна, Сезон Coffee" required/></div>
+    <div class="field"><label for="contact">TG или Email</label><input id="contact" name="contact" type="text" placeholder="@username или mail@domain.ru" required/></div>
+    <div class="field"><label>Тариф</label><div class="radio-group"><label><input type="radio" name="tariff" value="landing"/><span>Landing</span></label><label><input type="radio" name="tariff" value="multipage" checked/><span>Multipage</span></label><label><input type="radio" name="tariff" value="premium"/><span>Premium</span></label><label><input type="radio" name="tariff" value="unknown"/><span>Не уверен</span></label></div></div>
+    <div class="field"><label for="deadline">Когда нужен запуск</label><input id="deadline" name="deadline" type="text" placeholder="14 мая 2026"/></div>
+    <div class="field field-full"><label for="niche">Бизнес и аудитория</label><textarea id="niche" name="niche" rows="3" placeholder="Что вы делаете, для кого."></textarea></div>
+    <div class="field field-full"><label for="current">Текущий сайт / каналы</label><textarea id="current" name="current" rows="2" placeholder="Ссылка или «нет»"></textarea></div>
+    <div class="form-foot"><p class="form-note">Свяжемся в указанном канале в течение 4 часов в рабочее время.</p><button type="submit" class="btn btn-primary">Отправить <span class="arrow">→</span></button></div>
+    <div class="form-result" hidden>Бриф принят. Ответим в течение 4 часов.</div>
+  </form>
+</div></section>
+
+<section class="section section-lined"><div class="container-wide">
+  <div class="section-head"><span class="eyebrow-strong">04 · Реквизиты</span></div>
+  <div class="contacts-meta-grid">
+    <div><span class="mono-meta">JURIDICAL</span><h4>ИП Беляев Тимофей Сергеевич</h4><p>ОГРНИП 324774600123456 · ИНН 770212345678</p></div>
+    <div><span class="mono-meta">SCOPE</span><h4>Рынок</h4><p>РФ + СНГ. Договор-оферта. Без 152-ФЗ.</p></div>
+    <div><span class="mono-meta">HOSTING</span><h4>Где живут сайты</h4><p>Timeweb Cloud по умолчанию. Возможен Vercel или ваш сервер.</p></div>
+  </div>
+</div></section>
+</main>
+<footer class="footer"><div class="container-wide"><div class="footer-grid">
+  <div><div class="footer-display">BelBes<em>.</em>Studio</div></div>
+  <div class="footer-col"><h4>Студия</h4><ul><li><a href="home_mobile.html">Главная</a></li><li><a href="how-it-works_mobile.html">Процесс</a></li><li><a href="pricing_mobile.html">Тарифы</a></li><li><a href="case-studies_mobile.html">Кейсы</a></li><li><a href="about_mobile.html">О студии</a></li><li><a href="contacts_mobile.html">Контакты</a></li></ul></div>
+</div><div class="footer-bottom"><span>© 2026 BelBes Studio</span><span class="live"><span class="dot"></span>build 421</span></div></div></footer>
+</body></html>

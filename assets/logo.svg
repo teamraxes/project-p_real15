@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" role="img" aria-label="BelBes Studio">
+  
+  <rect x="0" y="0" width="140" height="80" fill="#000000"></rect>
+  
+  <rect x="140" y="0" width="140" height="80" fill="#EB0000"></rect>
+  
+  <text x="70" y="52" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="34" fill="#FFFFFF" letter-spacing="-0.5">BelBes</text>
+  <text x="210" y="52" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="34" fill="#FFFFFF" letter-spacing="-0.5">Studio</text>
+</svg>

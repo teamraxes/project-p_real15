@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Контакты — BelBes Studio</title><link rel="stylesheet" href="assets/styles.css"/></head>
+<body data-screen-label="contacts">
+<header class="nav"><div class="nav-inner"><a href="home.html" class="brand"><span class="brand-mark"></span><span>BelBes<em>.</em>Studio</span></a><nav class="nav-links"><a href="how-it-works.html" class="nav-link">Процесс</a><a href="pricing.html" class="nav-link">Pricing</a><a href="case-studies.html" class="nav-link">Кейсы</a><a href="about.html" class="nav-link">О студии</a><a href="contacts.html" class="nav-link is-active">Контакты</a></nav><a href="#form" class="btn btn-ink nav-cta">К форме <span class="arrow">↓</span></a></div></header>
+<div class="status-strip"><div class="status-strip-inner"><span>EST. 2024</span><span>↳ /contacts</span><span class="live"><span class="dot"></span>в работе · 3 проекта</span><span class="meta-r">отвечаем в TG за ~2 часа</span></div></div>
+<main>
+<section class="hero"><div class="container-wide">
+  <div class="hero-eyebrow-row"><span class="eyebrow">Контакты<span class="dot">·</span>четыре канала</span><span class="rule"></span><span class="mono-meta">contacts.json · GMT+3</span></div>
+  <div class="hero-grid">
+    <div>
+      <h1 class="hero-h1">Выберите канал.<br/>Каждый со <em class="h-italic">своим SLA</em>.</h1>
+      <p class="hero-lede">Самый быстрый ответ — Telegram. Структурированный бриф — форма. Длинный текст — email. Голос — по записи. Не «оставьте заявку и мы свяжемся» — а конкретный путь под формат вопроса.</p>
+      <div class="hero-cta-row"><a href="https://t.me/door2key" class="btn btn-primary">TG @door2key <span class="arrow">→</span></a><a href="#form" class="btn btn-ghost">Заполнить бриф</a></div>
+    </div>
+    <div style="font-family:var(--font-mono);font-size:13px;color:var(--fg-2);line-height:1.9;border-left:1px solid var(--border-1);padding:24px 0 24px 32px;">
+      <div style="color:var(--bb-red);letter-spacing:0.06em;margin-bottom:12px;">RESPONSE · WINDOW</div>
+      <div><b style="color:var(--fg-1);">Telegram</b> · ≤ 2&nbsp;часа в раб. время</div>
+      <div><b style="color:var(--fg-1);">Email</b> · ≤ 12&nbsp;часов</div>
+      <div><b style="color:var(--fg-1);">Форма брифа</b> · ≤ 4&nbsp;часов</div>
+      <div><b style="color:var(--fg-1);">Звонок</b> · по записи в TG</div>
+      <div style="margin-top:16px;color:var(--fg-3);">Рабочие часы: <b style="color:var(--fg-1);">Пн-Пт 10:00–19:00</b> GMT+3</div>
+    </div>
+  </div>
+</div></section>
+
+<section class="section section-lined"><div class="container-wide">
+  <div class="section-head"><span class="eyebrow-strong">02 · Прямой контакт</span><h2 class="section-h">Четыре канала, четыре <em class="h-italic">SLA</em>.</h2></div>
+  <div class="direct-grid">
+    <a href="https://t.me/door2key" class="direct-cell unlink"><span class="direct-num">01</span><span class="direct-label">Telegram</span><span class="direct-handle">@door2key</span><span class="direct-meta">Быстрый ответ. Дилог по брифу. Превью на каждой фазе конвейера.</span><span class="direct-sla">SLA ≤ 2 часа</span></a>
+    <a href="mailto:hello@belbes.ru" class="direct-cell unlink"><span class="direct-num">02</span><span class="direct-label">Email</span><span class="direct-handle">hello@belbes.ru</span><span class="direct-meta">Длинные ТЗ, договоры, документы, счета. Если в TG неудобно.</span><span class="direct-sla">SLA ≤ 12 часов</span></a>
+    <a href="#form" class="direct-cell unlink"><span class="direct-num">03</span><span class="direct-label">Форма брифа</span><span class="direct-handle">↓ ниже на странице</span><span class="direct-meta">Структурированный интейк. 6 полей. Прочитаем, ответим, начнём конвейер.</span><span class="direct-sla">SLA ≤ 4 часа</span></a>
+    <a href="https://t.me/door2key" class="direct-cell unlink"><span class="direct-num">04</span><span class="direct-label">Голосовой созвон</span><span class="direct-handle">по записи в TG</span><span class="direct-meta">20 минут. Без слайдов. Только если в переписке не сходится. Calendly не используем.</span><span class="direct-sla">по записи</span></a>
+  </div>
+</div></section>
+
+<section class="section bg-2" id="form"><div class="container-wide">
+  <div class="section-head"><span class="eyebrow-strong">03 · Бриф</span><h2 class="section-h">Шесть полей.<br/>Ответим в течение <em class="h-italic">четырёх часов</em>.</h2><p class="section-lede" style="max-width:48ch;">Это не «заявка». Это начало брифа. На основе того, что вы заполните, конвейер запустит фазу Research ещё до того, как мы созвонимся.</p></div>
+  <form class="form" onsubmit="event.preventDefault(); this.querySelector('.form-result').hidden=false; this.querySelector('button[type=submit]').textContent='Отправлено →';">
+    <div class="field"><label for="name">Имя и компания</label><input id="name" name="name" type="text" placeholder="Например, Анна, Сезон Coffee" required/></div>
+    <div class="field"><label for="contact">TG или Email</label><input id="contact" name="contact" type="text" placeholder="@username или mail@domain.ru" required/></div>
+    <div class="field"><label>Тариф (предположение)</label><div class="radio-group"><label><input type="radio" name="tariff" value="landing"/><span>Landing · 30k</span></label><label><input type="radio" name="tariff" value="multipage" checked/><span>Multipage · 60k</span></label><label><input type="radio" name="tariff" value="premium"/><span>Premium · 100k</span></label><label><input type="radio" name="tariff" value="unknown"/><span>Не уверен</span></label></div></div>
+    <div class="field"><label for="deadline">Когда нужен запуск</label><input id="deadline" name="deadline" type="text" placeholder="14 мая 2026 · или «как можно скорее»"/></div>
+    <div class="field field-full"><label for="niche">Бизнес и аудитория</label><textarea id="niche" name="niche" rows="3" placeholder="Что вы делаете, для кого. Одной-двумя фразами. Без маркетинга — простыми словами."></textarea></div>
+    <div class="field field-full"><label for="current">Текущий сайт или каналы продаж</label><textarea id="current" name="current" rows="2" placeholder="Ссылка на текущий сайт, Instagram, маркетплейс. Если ничего — напишите «нет»."></textarea></div>
+    <div class="form-foot"><p class="form-note">Нажимая «Отправить», вы соглашаетесь с тем, что мы свяжемся в указанном канале в течение 4 часов в рабочее время.</p><button type="submit" class="btn btn-primary">Отправить бриф <span class="arrow">→</span></button></div>
+    <div class="form-result" hidden>Бриф принят. Ответим в Telegram или Email в течение 4 часов · GMT+3.</div>
+  </form>
+</div></section>
+
+<section class="section section-lined"><div class="container-wide">
+  <div class="section-head"><span class="eyebrow-strong">04 · Реквизиты</span><h2 class="section-h">Кто мы юридически.</h2></div>
+  <div class="contacts-meta-grid">
+    <div><span class="mono-meta">JURIDICAL</span><h4>ИП Беляев Тимофей Сергеевич</h4><p>ОГРНИП 324774600123456 · ИНН 770212345678 · Москва, РФ</p></div>
+    <div><span class="mono-meta">BANK</span><h4>Райффайзенбанк</h4><p>р/с 40802810700001234567 · БИК 044525700 · к/с 30101810200000000700</p></div>
+    <div><span class="mono-meta">SCOPE</span><h4>Рынок</h4><p>РФ + СНГ. Работаем по договору-оферте. Закрывающие — раз в месяц или после деплоя. Без 152-ФЗ обработки данных.</p></div>
+    <div><span class="mono-meta">HOSTING</span><h4>Где живут сайты</h4><p>По умолчанию Timeweb Cloud. Возможен Vercel, Cloudflare Pages, ваш сервер. Доступы передаются после оплаты.</p></div>
+  </div>
+</div></section>
+</main>
+
+<footer class="footer"><div class="container-wide"><div class="footer-grid">
+  <div><div class="footer-display">BelBes<em>.</em>Studio<br/><span class="red">/</span> 2026</div><p style="margin-top:24px;color:rgba(247,244,238,0.6);max-width:36ch;font-size:14px;">Сайт под ключ за 24 часа. Москва · GMT+3.</p></div>
+  <div class="footer-col"><h4>Студия</h4><ul><li><a href="home.html">Главная</a></li><li><a href="how-it-works.html">Процесс</a></li><li><a href="pricing.html">Тарифы</a></li><li><a href="case-studies.html">Кейсы</a></li><li><a href="about.html">О студии</a></li></ul></div>
+  <div class="footer-col"><h4>Контакт</h4><ul><li><a href="https://t.me/door2key">TG @door2key</a></li><li><a href="mailto:hello@belbes.ru">hello@belbes.ru</a></li><li><a href="contacts.html">Форма заявки</a></li></ul></div>
+  <div class="footer-col"><h4>Mobile</h4><ul><li><a href="home_mobile.html">/ home</a></li><li><a href="case-studies_mobile.html">/ cases</a></li><li><a href="pricing_mobile.html">/ pricing</a></li><li><a href="how-it-works_mobile.html">/ how-it-works</a></li><li><a href="about_mobile.html">/ about</a></li><li><a href="contacts_mobile.html">/ contacts</a></li></ul></div>
+</div><div class="footer-bottom"><span>© 2026 BelBes Studio · belbes.studio</span><span class="live"><span class="dot"></span>build 421 · 12 May 2026</span></div></div></footer>
+</body></html>
